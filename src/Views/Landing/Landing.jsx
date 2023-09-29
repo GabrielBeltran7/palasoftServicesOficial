@@ -18,7 +18,7 @@ const Landing = () => {
         incansablemente para llevarte al siguiente nivel tecnológico y ser tu
         aliado de confianza en el emocionante viaje hacia la transformación
         digital. En cada paso de este camino, tu éxito es nuestra prioridad
-        absoluta, y juntos, estamos forjando el futuro de la tecnología.
+        absoluta, y juntos, estamos forjando el futuro de la tecnología..
       </p>
 
       <p className={styles.paragraph}>
