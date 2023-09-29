@@ -1,42 +1,60 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color:#333;  /* Color de fondo para todo el cuerpo */
+  padding: 0; /* Eliminar cualquier espacio de relleno en el body */
+  overflow-x: hidden; /* Evitar la barra de desplazamiento horizontal */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Estilos de la cabecera (header) */
+.header {
+  position: fixed; /* Fijar la cabecera en la parte superior */
+  top: 0; /* Colocar la cabecera en la parte superior */
+  left: 0;
+  right: 0;
+  background-color: #333; /* Color de fondo para la cabecera */
+  color: #fff; /* Color de texto para la cabecera */
+  padding: 20px; /* Espacio alrededor del contenido de la cabecera */
+  text-align: center; /* Centrar el texto en la cabecera */
+  z-index: 1; /* Colocar la cabecera por encima de otros elementos */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.header h1 {
+  margin: 0; /* Eliminar el margen superior del encabezado */
+}
+
+/* Estilos de la barra de navegación (Navbar) */
+.navbar {
+  background-color: #444; /* Color de fondo para la barra de navegación */
+  padding: 10px; /* Espacio alrededor del contenido de la barra de navegación */
+  text-align: center; /* Centrar el texto en la barra de navegación */
+}
+
+.navbar a {
+  text-decoration: none; /* Eliminar la decoración de texto para los enlaces */
+  color: #fff; /* Color de texto para los enlaces en la barra de navegación */
+  margin: 0 10px; /* Espacio horizontal entre los enlaces */
+  font-weight: bold; /* Texto en negrita para los enlaces */
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Subrayar los enlaces al pasar el mouse por encima */
+}
+
+/* Consulta de medios para pantallas más pequeñas */
+@media (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas */
+  .header {
+    padding: 15px; /* Reduzca el espacio alrededor de la cabecera */
   }
-  to {
-    transform: rotate(360deg);
+
+  .navbar {
+    padding: 5px; /* Reduzca el espacio alrededor de la barra de navegación */
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .navbar a {
+    font-size: 14px; /* Reduzca el tamaño del texto de los enlaces */
+    margin: 0 5px; /* Reduzca el espacio horizontal entre los enlaces */
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

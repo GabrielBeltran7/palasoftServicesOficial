@@ -1,0 +1,66 @@
+/* Estilos generales para toda la página */
+body {
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden; /* Evitar la barra de desplazamiento horizontal en dispositivos móviles */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  padding: 250px; /* Ajusta el padding según tus preferencias */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 100%; /* El contenedor se ajustará al ancho del dispositivo */
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+/* Estilos para la imagen */
+.image {
+  max-width: 100%; /* La imagen no superará el ancho del contenedor */
+  height: auto; /* La altura se ajustará automáticamente */
+  border-radius: 10px;
+  border: 2px solid #07d2e4;
+  margin-top: -20px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilos para el título */
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el párrafo */
+.paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para el botón de llamada a la acción (CTA) */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #16c6ee;
+}

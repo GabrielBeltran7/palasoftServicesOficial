@@ -1,0 +1,74 @@
+/* Estilos para pantallas grandes (PC) */
+.navcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; /* Fondo negro ligeramente más oscuro */
+    color: #fff; /* Texto en blanco */
+    padding: 10px 20px;
+    height: 60px;
+    box-shadow: 0 0 10px rgba(5, 179, 218, 0.993); /* Sutil sombra */
+    border-radius: 3%;
+  }
+  
+  .navcontainer a {
+    text-decoration: none;
+    color: #fff; /* Texto en blanco */
+    font-size: 24px; /* Tamaño de fuente aumentado en un 20% */
+    margin-right: 20px;
+    transition: color 0.3s, transform 0.3s; /* Efectos de transición */
+  }
+  
+  .navcontainer a:hover {
+    color: rgb(2, 234, 255); /* Cambia el color del enlace al pasar el mouse */
+    transform: scale(1.1); /* Hace que el enlace aumente ligeramente de tamaño */
+  }
+  
+  .navcontainer img {
+    display: block; /* Muestra el logotipo en pantallas grandes */
+    width: 60px; /* Tamaño reducido del logotipo */
+    height: auto;
+    border-radius: 50%; /* Da un aspecto circular al logotipo */
+    transition: transform 0.3s; /* Efecto de transición */
+  }
+  
+  .navcontainer img:hover {
+    transform: rotate(360deg); /* Gira el logotipo al pasar el mouse */
+  }
+  
+  /* Estilos para pantallas pequeñas (responsive) */
+  @media screen and (max-width: 768px) {
+    .navcontainer {
+      justify-content: space-between;
+    }
+  
+    .navcontainer a {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+      font-size: 30px;
+      cursor: pointer;
+    }
+  
+    .menu-icon.active + .linkcontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #000000;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+  
+    .menu-icon.active + .linkcontainer a {
+      display: block;
+      margin: 10px;
+    }
+  }
+  
+  
+  

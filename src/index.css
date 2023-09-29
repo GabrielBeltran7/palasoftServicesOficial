@@ -1,3 +1,4 @@
+/* Establece el fondo negro para toda la página */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #000; /* Cambia el fondo a negro */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,6 +15,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/* Resto de los estilos */
 a {
   font-weight: 500;
   color: #646cff;
@@ -55,6 +57,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Estilos en modo de color claro */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
