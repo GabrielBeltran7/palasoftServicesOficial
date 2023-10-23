@@ -1,0 +1,60 @@
+/* Direccion.module.css */
+
+.direccionContainer {
+  background-color: #000; /* Fondo negro */
+  border: 3px solid #f7c708; /* Borde gris */
+  border-radius: 10px; /* Borde redondeado */
+  padding: 2rem; /* Mayor espacio interno */
+  margin: 2rem; /* Mayor margen exterior */
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin-left: auto; /* Margen izquierdo automático */
+  margin-right: auto; /* Margen derecho automático */
+}
+
+.contenedorprincipal {
+  display: flex;
+}
+
+.title {
+  font-size: 1.75rem; /* Tamaño de fuente más grande con unidades rem */
+  color: #daa520; /* Texto amarillo */
+  margin-bottom: 1rem; /* Mayor espacio inferior */
+}
+
+.addressText {
+  font-size: 1rem; /* Tamaño de fuente más grande con unidades rem */
+  color: #ffffff; /* Texto blanco */
+  margin-bottom: 0.5rem;
+}
+
+.mapContainer {
+  margin-top: 1rem; /* Mayor espacio superior */
+  text-align: center;
+}
+
+/* Media Queries para Responsividad */
+@media screen and (max-width: 768px) {
+  .direccionContainer {
+    padding: 1rem; /* Ajustar el espacio interno */
+    font-size: 1rem; /* Reducir el tamaño de fuente con unidades rem */
+  }
+
+  .title {
+    font-size: 1.5rem; /* Reducir el tamaño de fuente del título con unidades rem */
+    margin-bottom: 0.5rem;
+  }
+
+  .mapContainer {
+    margin-top: 0.5rem; /* Reducir el espacio superior del mapa */
+  }
+  .contenedorprincipal {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  .contenedorprincipal {
+    flex-direction: column;
+  }
+}

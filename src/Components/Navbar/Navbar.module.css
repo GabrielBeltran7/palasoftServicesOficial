@@ -20,7 +20,7 @@
   }
   
   .navcontainer a:hover {
-    color: rgb(2, 234, 255); /* Cambia el color del enlace al pasar el mouse */
+    color: rgb(2, 234, 255); ; /* Cambia el color del enlace al pasar el mouse */
     transform: scale(1.1); /* Hace que el enlace aumente ligeramente de tamaño */
   }
   

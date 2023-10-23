@@ -1,24 +1,25 @@
 import React, { useEffect, useState } from 'react'
-import Cards from '../../Components/Cards/Cards'
+import CardsProyectos from "../../Components/CardsProyectos/CardsProyectos"
+
 import { useSelector, useDispatch } from 'react-redux'
-import { getServicios } from "../../Redux/Actions";
+import {  getProyectos } from "../../Redux/Actions";
 
 
 const Home = () => {
   const dispatch = useDispatch(); // Usa useDispatch como una función
   useEffect(() => {
-    dispatch(getServicios()); // Despacha la acción para obtener los servicios
+    dispatch(getProyectos()); // Despacha la acción para obtener los servicios
   }, []);
 
-  const servicios = useSelector((state) => state.servicios);
-console.log(servicios)
+  const proyectos = useSelector((state) => state.proyectos);
+
 
   return (
     <div className='home-container'>
  
       
       <div> <br /> <br /> <br /> <br /><br /><br /> <br /> <br />
-       <Cards servicios={servicios}/>
+       <CardsProyectos proyectos={proyectos}/>
       </div>
     
     </div>

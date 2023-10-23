@@ -20,9 +20,12 @@ const Navbar = () => {
       </Link>
       <FaBars className={`menu-icon ${showMenu ? 'active' : ''}`} onClick={toggleMenu} />
       <div className={`linkcontainer ${showMenu ? 'active' : ''}`}>
-      <Link to="/landing">landing</Link>
-        <Link to="/home">Inicio</Link>
-        <Link to="/create">Nosotros</Link>
+      <Link to="/landing">Inicio</Link>
+        <Link to="/home">Servicios</Link>
+        <Link to="/proyectos">Proyectos</Link>
+        <Link to="/contactenos">Contactenos</Link>
+        <Link to="/colaboradores"> Colaboradores</Link>
+        
       </div>
     </div>
   );

@@ -1,22 +1,25 @@
 import React from 'react'
-import Card from '../Card/Card'
-import "./Cards.css"
 
-const Cards = ({allUsers}) => {
+import Card from "../Card/Card"
+import style from "./Cards.module.css"
+
+const Cards = ({ servicios }) => {
+ 
   return (
-    <div className='cards-container'>
+    <div>
+      <div className={style.cardscontainer}>
+        {servicios.map((servicios) => <Card
+          id={servicios.id}
+          nombre={servicios.nombre}
+          imagen={servicios.imagen}
+          descripcion={servicios.descripcion}
+          key={servicios.id} />)}
 
-        {allUsers.map((user) => <Card name={user.name} phone={user.phone} email={user.email}/>)}
-        
-        
-        
-        {/* <Card name={"Lucas"} phone={"116873258"} email={"Lucas@gmail.com"}/>
-        <Card name={"Diana"} phone={"116873258"} email={"Diana@gmail.com"}/>
-        <Card name={"Luis"} phone={"116873258"} email={"Luis@gmail.com"}/>
-        <Card name={"Ignacio"} phone={"116873258"} email={"Ignacio@gmail.com"}/>
-        <Card name={"Roberto"} phone={"116873258"} email={"Roberto@gmail.com"}/>
-        <Card name={"Matias"} phone={"116873258"} email={"Matias@gmail.com"}/> */}
+      </div>
+
     </div>
+
+
   )
 }
 
