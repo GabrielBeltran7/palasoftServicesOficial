@@ -5,8 +5,6 @@ import imgquehacemos from "../../Components/imagenes/landing/tiposdesoftware.jpg
 const Landing = () => {
   return (
     <div className={styles.container}>
-      <img src={imgquehacemos} alt="que ofrecemos" className={styles.image} />
-      
       <p className={styles.paragraph}>
         En Palasoft Services, nuestra pasión va más allá del simple desarrollo
         de software; estamos comprometidos en crear experiencias digitales
@@ -20,6 +18,8 @@ const Landing = () => {
         digital. En cada paso de este camino, tu éxito es nuestra prioridad
         absoluta, y juntos, estamos forjando el futuro de la tecnología..
       </p>
+      <img src={imgquehacemos} alt="que ofrecemos" className={styles.image} />
+
       <p className={styles.paragraph}>
         En este emocionante viaje de innovación, nos destacamos por nuestro
         compromiso con la calidad y la excelencia. Contamos con un equipo de
@@ -42,4 +42,3 @@ const Landing = () => {
 };
 
 export default Landing;
-

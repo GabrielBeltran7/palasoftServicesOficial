@@ -1,21 +1,19 @@
 /* Estilos generales */
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color:#333;  /* Color de fondo para todo el cuerpo */
+  font-family: "Arial", sans-serif;
+  background-color: #4ea5f8; /* Color de fondo para todo el cuerpo */
   padding: 0; /* Eliminar cualquier espacio de relleno en el body */
   overflow-x: hidden; /* Evitar la barra de desplazamiento horizontal */
 }
 
 /* Estilos de la cabecera (header) */
 .header {
-  position: fixed; /* Fijar la cabecera en la parte superior */
   top: 0; /* Colocar la cabecera en la parte superior */
   left: 0;
   right: 0;
-  background-color: #333; /* Color de fondo para la cabecera */
+  background-color: #102132; /* Color de fondo para la cabecera */
   color: #fff; /* Color de texto para la cabecera */
-  padding: 20px; /* Espacio alrededor del contenido de la cabecera */
   text-align: center; /* Centrar el texto en la cabecera */
   z-index: 1; /* Colocar la cabecera por encima de otros elementos */
 }
