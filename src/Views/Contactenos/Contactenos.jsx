@@ -1,14 +1,11 @@
 import style from "./Contactenos.module.css";
-import FormularioContactenos from "../../components/formulariocontactenos/FormularioContactenos";
-import Direccion from "../../components/Direccion/Direcion";
-
+import FormularioContactenos from "../../Components/formulariocontactenos/FormularioContactenos";
+import Direccion from "../../Components/Direccion/Direcion";
 
 const Contactenos = () => {
   return (
     <div>
-      <div className={style.header}>
-      
-      </div>
+      <div className={style.header}></div>
       <div className={style.contenedorprincipal}>
         <Direccion />
         <FormularioContactenos />
