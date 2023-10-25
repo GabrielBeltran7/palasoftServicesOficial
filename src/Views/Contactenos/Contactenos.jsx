@@ -1,6 +1,6 @@
 import style from "./Contactenos.module.css";
 import FormularioContactenos from "../../Components/formulariocontactenos/FormularioContactenos";
-import Direccion from "../../components/Direccion/Direcion";
+import Direccion from "../../Components/Direccion/Direcion";
 
 
 const Contactenos = () => {
