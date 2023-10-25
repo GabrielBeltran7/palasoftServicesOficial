@@ -23,9 +23,6 @@ const Servicios = () => {
 
   return (
     <div className={style.container}>
-      <div className={style.containerHeader}>
-      
-      </div>
       <div className={style.containerInfo}>
         <h2 className={style.title}>{serviciosfilter.nombre}</h2>
         <div className={style.containerImage}>

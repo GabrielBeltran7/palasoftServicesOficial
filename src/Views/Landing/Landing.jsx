@@ -1,10 +1,16 @@
 import React from "react";
 import styles from "./Landing.module.css";
 import imgquehacemos from "../../Components/imagenes/landing/tiposdesoftware.jpg";
-
+import imagenInicio from "../../assets/palasoft 5.jpg";
+import FormularioContactenos from "../../Components/FormularioInicio/FormularioInicio";
 const Landing = () => {
   return (
     <div className={styles.container}>
+      <section className={styles.heroSection}>
+        <FormularioContactenos />
+        <img src={imagenInicio} alt="" />
+      </section>
+
       <p className={styles.paragraph}>
         En Palasoft Services, nuestra pasión va más allá del simple desarrollo
         de software; estamos comprometidos en crear experiencias digitales
