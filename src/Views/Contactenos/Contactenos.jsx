@@ -1,5 +1,5 @@
 import style from "./Contactenos.module.css";
-import FormularioContactenos from "../../components/formulariocontactenos/FormularioContactenos";
+import FormularioContactenos from "../../Components/formulariocontactenos/FormularioContactenos";
 import Direccion from "../../components/Direccion/Direcion";
 
 
