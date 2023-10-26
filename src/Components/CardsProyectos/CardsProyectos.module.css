@@ -1,7 +1,8 @@
 .cardscontainer {
-  background-color: #242222;
+  background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  gap: 25px;
 }

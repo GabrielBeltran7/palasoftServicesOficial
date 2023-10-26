@@ -13,9 +13,9 @@ const Card = (props) => {
       </div>
       <div className={style.carddivisor} />
       <div className={style.cardinfo}>
-      <Link to={`/servicios/${id}`}>
-      <h4 className={style.color}>{props.nombre}</h4>
-      </Link>
+        <Link to={`/servicios/${id}`}>
+          <h4 className={style.color}>{props.nombre}</h4>
+        </Link>
         <FuncionContactenos />
       </div>
     </article>

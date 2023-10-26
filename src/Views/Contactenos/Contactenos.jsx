@@ -4,12 +4,9 @@ import Direccion from "../../Components/Direccion/Direcion";
 
 const Contactenos = () => {
   return (
-    <div>
-      <div className={style.header}></div>
-      <div className={style.contenedorprincipal}>
-        <Direccion />
-        <FormularioContactenos />
-      </div>
+    <div className={style.contenedorprincipal}>
+      <Direccion />
+      <FormularioContactenos />
     </div>
   );
 };

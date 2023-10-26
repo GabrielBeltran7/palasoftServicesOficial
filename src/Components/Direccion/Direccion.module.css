@@ -2,23 +2,24 @@
 
 .direccionContainer {
   background-color: #000; /* Fondo negro */
-  border: 3px solid #f7c708; /* Borde gris */
+  border: 3px solid aqua; /* Borde gris */
   border-radius: 10px; /* Borde redondeado */
   padding: 2rem; /* Mayor espacio interno */
   margin: 2rem; /* Mayor margen exterior */
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); /* Sombra suave */
   margin-left: auto; /* Margen izquierdo automático */
   margin-right: auto; /* Margen derecho automático */
 }
 
 .contenedorprincipal {
   display: flex;
+  width: 100%;
 }
 
 .title {
   font-size: 1.75rem; /* Tamaño de fuente más grande con unidades rem */
-  color: #daa520; /* Texto amarillo */
+  color: aqua; /* Texto amarillo */
   margin-bottom: 1rem; /* Mayor espacio inferior */
 }
 

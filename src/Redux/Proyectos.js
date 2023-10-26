@@ -7,13 +7,14 @@ export const servicios = [
     descripcion: `pagina desarrollada para un cliente mexicano, es para la carrera de motos 0000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     .`,
+    descripcionCorta: "Página sobre apuestas de carreras de motos",
   },
   {
     id: 2,
     nombre: "TECNOMINERALES",
-    imagen:
-      "https://www.tecactiva.com/wp-content/uploads/2019/01/software.jpg",
+    imagen: "https://www.tecactiva.com/wp-content/uploads/2019/01/software.jpg",
     descripcion: `111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111.`,
+    descripcionCorta: "Página sobre materiales de construccion",
   },
   {
     id: 3,
@@ -21,6 +22,7 @@ export const servicios = [
     imagen:
       "https://okhosting.com/wp-content/uploads/2015/12/como-crear-una-aplicacion-1024x683@2x.png",
     descripcion: `222222222222222`,
+    descripcionCorta: "e-commerce de celulares",
   },
   {
     id: 4,
@@ -28,19 +30,22 @@ export const servicios = [
     imagen:
       "https://www.cyprusinsurancenews.com/wp-content/uploads/2022/01/SEO.jpg",
     descripcion: `333333333333333333333333333333333333`,
+    descripcionCorta: "App delivery",
   },
   {
     id: 5,
     nombre: "LINK",
-    imagen: "https://d2kb9qm8np017y.cloudfront.net/blog-es/wp-content/uploads/2018/10/11133929/Facebook_1200x630.png",
+    imagen:
+      "https://d2kb9qm8np017y.cloudfront.net/blog-es/wp-content/uploads/2018/10/11133929/Facebook_1200x630.png",
     descripcion: `4444444444444444444444444444444444444`,
+    descripcionCorta: "4444444444444444444",
   },
   {
     id: 6,
     nombre: "PRUEBA1",
-    imagen:
-      "https://enzyme.biz/hubfs/iStock-914327272%20%281%29.jpg",
+    imagen: "https://enzyme.biz/hubfs/iStock-914327272%20%281%29.jpg",
     descripcion: `55555555555555555555555555555555555555555555555555.`,
+    descripcionCorta: "55555555555555",
   },
 ];
 export default servicios;

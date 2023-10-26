@@ -4,16 +4,16 @@ const FormularioInicio = () => {
   return (
     <div className={style.container}>
       <div className={style.inicio}>
-        <h3>Desarrollo de software a medida</h3>
+        <h2>Desarrollo de software a medida</h2>
         <p>
           Entendemos las necesidades de tu emprendimiento como propias y nos
           proponemos a crear soluciones tecnologicas que te generarán resultados
           concretos, medibles y escalables.
         </p>
-        <h2>
+        <h3>
           ¡Encontrá las soluciones tecnologicas que necesitás con Palasoft
           Service!
-        </h2>
+        </h3>
       </div>
       <form action="" className={style.formulario}>
         <div>
@@ -32,6 +32,7 @@ const FormularioInicio = () => {
           <label htmlFor="consulta">¿Que podemos hacer por usted?</label>
           <textarea name="consulta" id="" cols="30" rows="5"></textarea>
         </div>
+        <button>Enviar Consulta</button>
       </form>
     </div>
   );
