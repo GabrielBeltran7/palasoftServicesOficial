@@ -1,17 +1,27 @@
 import React from "react";
 import styles from "./Landing.module.css";
 import imgquehacemos from "../../Components/imagenes/landing/tiposdesoftware.jpg";
-import imagenInicio from "../../assets/palasoft 5.jpg";
+
 import FormularioContactenos from "../../Components/FormularioInicio/FormularioInicio";
 import imagenMain from "../../assets/palasoft 6.jpg";
+import Argentina from "../../assets/argentina.png";
+import Colombia from "../../assets/colombia.png";
+import Paraguay from "../../assets/paraguay.png";
 const Landing = () => {
   return (
     <div className={styles.container}>
-      <h1>PalasoftService</h1>
+      <div className={styles.palasoft}>
+        <h1>PalasoftService</h1>
+        <span className={styles.banderas}>
+          <img src={Argentina} alt="Bandera Argentina" />
+          <img src={Colombia} alt="Bandera Argentina" />
+          <img src={Paraguay} alt="Bandera Argentina" />
+        </span>
+      </div>
       <section className={styles.heroSection}>
         <FormularioContactenos />
-        <img src={imagenInicio} alt="" />
       </section>
+
       <div className={styles.contenedorInfoUno}>
         <p className={styles.paragraph}>
           En Palasoft Services, nuestra pasión va más allá del simple desarrollo
@@ -26,7 +36,7 @@ const Landing = () => {
           digital. En cada paso de este camino, tu éxito es nuestra prioridad
           absoluta, y juntos, estamos forjando el futuro de la tecnología...
         </p>
-        <img src={imagenMain} alt="" />
+        <img src={imagenMain} alt="" className={styles.imagenInfoUno} />
       </div>
       <div className={styles.contenedorInfoDos}>
         <img src={imgquehacemos} alt="que ofrecemos" className={styles.image} />

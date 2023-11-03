@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: "Arial", sans-serif;
-  background-color: #4ea5f8; /* Color de fondo para todo el cuerpo */
+  background-color: #ffff; /* Color de fondo para todo el cuerpo */
   padding: 0; /* Eliminar cualquier espacio de relleno en el body */
   overflow-x: hidden; /* Evitar la barra de desplazamiento horizontal */
 }
