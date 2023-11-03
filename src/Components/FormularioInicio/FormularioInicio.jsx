@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./FormularioInicio.module.css";
+import imagenInicio from "../../assets/palasoft 5.jpg";
 const FormularioInicio = () => {
   return (
     <div className={style.container}>
@@ -32,8 +33,9 @@ const FormularioInicio = () => {
           <label htmlFor="consulta">¿Que podemos hacer por usted?</label>
           <textarea name="consulta" id="" cols="30" rows="5"></textarea>
         </div>
-        <button>Enviar Consulta</button>
+        <button className={style.enviarConsulta}>Enviar Consulta</button>
       </form>
+      <img className={style.imagen} src={imagenInicio} alt="" />
     </div>
   );
 };
