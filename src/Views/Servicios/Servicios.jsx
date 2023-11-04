@@ -27,8 +27,10 @@ const Servicios = () => {
         <h2 className={style.title}>{serviciosfilter.nombre}</h2>
         <div className={style.containerImage}>
           <img src={serviciosfilter.imagen} alt="" />
+          
+          <h2 className={style.description}>{serviciosfilter.descripcion}</h2>
         </div>
-        <p>{serviciosfilter.descripcion}</p>
+        
       </div>
     </div>
   );

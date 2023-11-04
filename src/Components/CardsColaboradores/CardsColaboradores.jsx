@@ -22,12 +22,7 @@ const Cards = ({ colaboradores }) => {
           github={colaboradores.github}
           key={colaboradores.id} />)}
 
-
-
-
-
-
-      </div>
+</div>
 
     </div>
 

@@ -40,7 +40,7 @@ p {
   width: 350px;
   gap: 15px;
   color: black;
-  background-color: rgb(111, 214, 214);
+  background-color: rgb(16, 228, 228);
   padding: 25px;
   border-radius: 20px;
   margin: 0;
@@ -62,13 +62,13 @@ p {
 }
 
 .enviarConsulta {
-  background-color: #011148;
+  background-color: white;
   box-shadow: 2px 2px 5px black;
   border: none;
 }
 
 .enviarConsulta:hover {
-  background-color: #000d36;
+  background-color: aqua;
   border: none;
   box-shadow: 0px 0px 0px black;
 }

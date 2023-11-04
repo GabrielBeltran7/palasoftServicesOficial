@@ -30,7 +30,7 @@ const FormularioContactenos = () => {
     };
 
     // Reemplaza 'YOUR_EMAILJS_USER_ID' con tu ID de usuario de EmailJS
-    emailjs.send('service_iqcsysa', 'template_jfrn7xs', templateParams, 'AvciPXZVJvZnMhSaL')
+    emailjs.send('service_8ni33ap', 'template_g6fmvrq', templateParams, 'OSctIut5jV2BPZRQX')
       .then((response) => {
         console.log('Correo enviado con éxito', response);
       })
@@ -99,11 +99,11 @@ const FormularioContactenos = () => {
             required
           >
             <option value="">Selecciona una Opcion</option>
-            <option value="DESCAPOTAJE">Productos de excavacion y sobrantes de la adecuación de terrenos</option>
-            <option value="EXCAVACION">Productos de cimentaciones y pilotaje: arcillas, bentonitas y demas</option>
-            <option value="ESCOMBROS">Petreos</option>
-            <option value="DEMOLICION">No petreos</option>
-            <option value="ALQUILER">Otros</option>
+            <option value="DESCAPOTAJE">LANDING PAGE</option>
+            <option value="EXCAVACION">SITIO WEB</option>
+            <option value="ESCOMBROS">E-COMERCE</option>
+            <option value="DEMOLICION">APP MOVIL</option>
+            <option value="ALQUILER">SOFTWARE</option>
             
           </select>
         </div>

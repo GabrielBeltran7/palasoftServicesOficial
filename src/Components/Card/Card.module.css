@@ -1,52 +1,56 @@
 .cardcontainer {
-  background-color: #333;
+  background-color: #f4f4f4;
   border-radius: 10px;
-  width: 30%;
   margin: 1rem;
+  width: 25%; /* Establece el ancho inicial al 25% del contenedor padre */
   display: flex;
   flex-direction: column;
   font-size: 1rem;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease,
-    background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   overflow: hidden;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  position: relative;
 }
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .cardcontainer {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor padre en pantallas pequeñas */
+  }
+}
+
 .cardcontainer:hover {
-  transform: scale(1.01);
-  box-shadow: 0 0 0;
-  background-color: rgb(2, 234, 255);
-  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  background-color: #02eaff;
   cursor: pointer;
 }
 
 .cardtitle {
   border-radius: 10px 10px 0 0;
   background-color: #000;
-  padding: 0;
-  margin: 0;
   text-align: center;
 }
 
 .image {
-  height: 350px;
   border-radius: 10px 10px 0 0;
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
 }
-.image img {
-  width: fit-content;
-}
+
 .color {
-  color: white;
+  color: #333;
 }
+
 .color:hover {
-  font-style: none;
-  text-decoration: none;
-  color: black;
+  color: #000;
+  font-weight: bold;
 }
 
 .carddivisor {
   height: 1px;
-  background-color: #020000;
+  background-color: #ccc;
 }
 
 .cardinfo {
@@ -56,24 +60,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.cardInfo:hover {
-  color: black;
+  text-align: center;
 }
 
 h4 {
-  padding: 0;
   font-size: 1.2rem;
   margin: 10px;
-  text-align: center;
+  font-weight: bold;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #333;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
+  color: #000;
 }

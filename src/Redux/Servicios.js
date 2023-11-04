@@ -1,7 +1,7 @@
 export const servicios = [
   {
     id: 1,
-    nombre: "DESARROLLO WEB,  E-COMERCE",
+    nombre: "DESARROLLO WEB",
     imagen:
       "https://sectorweb.mx/assets/img/servicio/desarrollo-web/desarrollo-web.png?1613026816",
     descripcion: `Como expertos en desarrollo web, nuestra misión es impulsar su éxito en el mundo digital. Ofrecemos soluciones integrales
@@ -16,6 +16,18 @@ export const servicios = [
   },
   {
     id: 2,
+    nombre: "DESARROLLO LANDING PAGE",
+    imagen:
+      "https://img.freepik.com/free-vector/professional-geometric-landing-page-with-gradient_52683-23513.jpg",
+    descripcion: `Innovación Digital es tu aliado definitivo para el éxito en línea. Diseñamos Landing Pages
+    de vanguardia que cautivan a tu audiencia, aumentan conversiones y optimizan la visibilidad en motores de búsqueda. 
+    Nuestro enfoque centrado en la innovación y el diseño a medida garantiza que tu mensaje llegue a la audiencia adecuada. 
+    Desde startups hasta corporaciones, colaboramos estrechamente contigo para crear páginas de destino altamente responsivas
+     y atractivas que reflejen tu marca y cumplen tus objetivos. Descubre la diferencia de elegir Innovación Digital: 
+     calidad, creatividad y resultados tangibles en un mundo digital en constante evolución..`,
+  },
+  {
+    id: 3,
     nombre: " DESARROLLO DE SOFTWARE",
     imagen:
       "https://www.tecactiva.com/wp-content/uploads/2019/01/software.jpg",
@@ -33,8 +45,8 @@ export const servicios = [
        constante evolución.`,
   },
   {
-    id: 3,
-    nombre: "APLICACIONES MOVILES",
+    id: 4,
+    nombre: "DESARROLLO APP MOVILES",
     imagen:
       "https://okhosting.com/wp-content/uploads/2015/12/como-crear-una-aplicacion-1024x683@2x.png",
     descripcion: `Como expertos en desarrollo de aplicaciones móviles, ofrecemos soluciones de alto rendimiento para iOS, 
@@ -44,37 +56,11 @@ export const servicios = [
     a la vida digital, impulsando el éxito de su negocio en un mundo móvil en constante evolución. Confíe en nosotros para entregar 
     aplicaciones de calidad que superen las expectativas y deleiten a los usuarios.`,
   },
-  {
-    id: 4,
-    nombre: "SEO",
-    imagen:
-      "https://www.cyprusinsurancenews.com/wp-content/uploads/2022/01/SEO.jpg",
-    descripcion: `Mis disculpas por la confusión anterior. Aquí tienes un párrafo que se ajusta a tu solicitud:
-    En Plasoft Service, nuestro equipo se dedica a liderar la industria de SEO con un compromiso inquebrantable hacia la excelencia y 
-    el éxito de nuestros clientes. Nuestra visión estratégica se basa en ofrecer soluciones de SEO de alta calidad que superen las
-     expectativas, permitiendo a nuestros clientes destacarse en los motores de búsqueda. Trabajamos incansablemente para mejorar nuestras 
-     estrategias, adoptar las mejores prácticas y adaptarnos ágilmente a un entorno en constante evolución. Nuestros valores 
-     fundamentales incluyen la transparencia, la ética y la responsabilidad en cada decisión que tomamos. Priorizamos la satisfacción del
-      cliente y la obtención de resultados sobresalientes, lo que nos permite mantenernos como líderes en la industria. En Plasoft Service, 
-      nos comprometemos a liderar nuestro talentoso equipo hacia el éxito continuo en el ámbito del SEO.`,
-  },
+ 
+ 
   {
     id: 5,
-    nombre: "PUBLICIDAD",
-    imagen: "https://d2kb9qm8np017y.cloudfront.net/blog-es/wp-content/uploads/2018/10/11133929/Facebook_1200x630.png",
-    descripcion: `En Plasoft Service, ofrecemos servicios de publicidad de primer nivel diseñados para impulsar la visibilidad y el éxito 
-    de nuestros clientes en el mundo digital. Nuestra estrategia se enfoca en la creación de campañas publicitarias efectivas y 
-    personalizadas que generen resultados medibles. Trabajamos en estrecha colaboración con nuestros clientes para comprender 
-    sus objetivos y audiencia, diseñando estrategias que maximicen el retorno de la inversión. Nuestra cartera incluye publicidad en
-     motores de búsqueda, en redes sociales, anuncios gráficos y de video, respaldada por análisis de datos para optimizar el rendimiento. 
-     Valoramos la creatividad, la transparencia y la rendición de cuentas, proporcionando informes detallados y ajustando estrategias para
-     alcanzar resultados óptimos. En resumen, como expertos en publicidad, estamos comprometidos con llevar el mensaje de nuestros clientes 
-     al público adecuado y lograr el éxito en un mercado digital altamente competitivo. Confíe en nosotros como su socio publicitario de 
-     confianza.`,
-  },
-  {
-    id: 6,
-    nombre: "AUTOMATIZACION",
+    nombre: "DESARROLLO DE E-COMERCE",
     imagen:
       "https://enzyme.biz/hubfs/iStock-914327272%20%281%29.jpg",
     descripcion: `Plasoft Service se especializa en ofrecer soluciones de automatización de vanguardia para agilizar procesos y mejorar

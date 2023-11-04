@@ -14,20 +14,25 @@ const Navbar = () => {
     <div className={styles.navcontainer}>
       <Link to="/">
         <img
-          src="https://cdn.theorg.com/d3119e0e-8202-4034-85ce-d0356382515e_thumb.jpg"
+          src="https://firebasestorage.googleapis.com/v0/b/link-6eb7d.appspot.com/o/innovacionDigitallogo.png?alt=media&token=9822d711-4f1f-4a9c-9852-0cf7cf715738"
           alt="henryLogo"
         />
       </Link>
-      {/* <FaBars className={`menu-icon ${showMenu ? 'active' : ''}`} onClick={toggleMenu} /> */}
+      <FaBars
+        className={`menu-icon ${showMenu ? 'active' : ''}`}
+        onClick={toggleMenu}
+      />
       <div className={`linkcontainer ${showMenu ? "active" : ""}`}>
         <Link to="/landing">Inicio</Link>
         <Link to="/home">Servicios</Link>
         <Link to="/proyectos">Proyectos</Link>
         <Link to="/contactenos">Contactenos</Link>
-        <Link to="/colaboradores"> Colaboradores</Link>
+        <Link to="/colaboradores">Colaboradores</Link>
       </div>
     </div>
   );
 };
 
 export default Navbar;
+
+

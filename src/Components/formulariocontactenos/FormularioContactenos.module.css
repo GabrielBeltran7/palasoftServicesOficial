@@ -74,7 +74,7 @@ textarea {
 
 button {
   background-color: #daa520;
-  color: white;
+  color: black;
   padding: 12px 24px;
   border: none;
   border-radius: 5px;
@@ -85,7 +85,7 @@ button {
 }
 
 button:hover {
-  background-color: #855f00;
+  background-color: aqua;
 }
 
 @media (max-width: 750px) {

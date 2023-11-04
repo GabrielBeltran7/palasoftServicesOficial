@@ -13,8 +13,7 @@ const Cards = ({ proyectos }) => {
           imagen={proyectos.imagen}
           descripcion={proyectos.descripcion}
           key={proyectos.id} />)}
-
-      </div>
+</div>
 
     </div>
 

@@ -13,7 +13,7 @@ const Footer = () => {
           <a href="#" ><FaInstagram /></a>
         </div>
         <div className={style.palasofrservice}>
-          <a className={style.containerprincipal}>  Palasoft service Colombia +57 3213190211</a>
+          <a className={style.containerprincipal}>  Innovacion Digital +57 3132315212</a>
         </div>
         </>
       );

@@ -12,8 +12,7 @@ const FormularioInicio = () => {
           concretos, medibles y escalables.
         </p>
         <h3>
-          ¡Encontrá las soluciones tecnologicas que necesitás con Palasoft
-          Service!
+          Encuentra las soluciones tecnologicas que necesitás con Innovación Digital!
         </h3>
       </div>
       <form action="" className={style.formulario}>

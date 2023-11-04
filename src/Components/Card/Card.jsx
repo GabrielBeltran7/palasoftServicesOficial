@@ -2,13 +2,17 @@ import React from "react";
 import style from "./Card.module.css";
 import { Link } from "react-router-dom";
 import FuncionContactenos from "../Funcioncontactenos/FuncionContactenos";
+
 const Card = (props) => {
   const id = props.id;
+
   return (
     <article className={style.cardcontainer}>
       <div className={style.cardtitle}>
         <Link to={`/servicios/${id}`}>
-          <img src={props.imagen} className={style.image} alt="img" />
+          <div className={style.imageContainer}>
+            <img src={props.imagen} className={style.image} alt="img" />
+          </div>
         </Link>
       </div>
       <div className={style.carddivisor} />
@@ -23,3 +27,4 @@ const Card = (props) => {
 };
 
 export default Card;
+

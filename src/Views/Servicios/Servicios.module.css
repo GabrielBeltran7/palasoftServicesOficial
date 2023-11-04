@@ -1,33 +1,55 @@
-.containerImage img {
-  border-radius: 20px;
-  width: 600px;
-}
+/* DetalleProyectos.module.css */
 
-.container p {
-  color: white;
-  margin: 20px;
-  width: 90%;
-  font-size: x-large;
-}
-.title {
-  text-align: center;
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
-  padding: 10px;
-  margin: 20px;
-  font-size: xx-large;
-}
-
-.containerInfo {
+.container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding: 20px;
+  width: 90%; 
+  
+
 }
 
 .containerHeader {
-  background-color: orange;
+  background-color: rgb(0, 3, 3);
+  height: 10px;
+  width: 40%;
+  border-radius: 20px;
+}
+
+.containerInfo {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  background-color: rgb(16, 228, 228);
+  color: black;
+  padding: 10px;
+  
+  border-radius: 7px;
+  white-space: pre;
+}
+
+.containerImage img {
+  border-radius: 10px;
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover; /* Asegura que la imagen se ajuste correctamente en su contenedor */
+}
+
+.description {
+  color: black;
+  margin: 20px;
+  font-size: 18px;
+  text-align: justify; /* Justificar el texto */
+  text-align-last: left; /* Evitar justificación en la última línea */
+  max-width: 100%; /* Limitar el ancho del contenedor */
+  word-spacing: 3px; /* Ajusta el espacio entre palabras según tus necesidades */
 }

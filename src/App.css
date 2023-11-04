@@ -6,6 +6,7 @@ body {
   background-color: #ffff; /* Color de fondo para todo el cuerpo */
   padding: 0; /* Eliminar cualquier espacio de relleno en el body */
   overflow-x: hidden; /* Evitar la barra de desplazamiento horizontal */
+  
 }
 
 /* Estilos de la cabecera (header) */

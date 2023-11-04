@@ -18,6 +18,8 @@ import Colaboradores from "./Views/Colaboradores/Colaboradores";
 import DetalleColaboradores from "./Views/DetalleColaboradores/DetalleColaboradores";
 import Proyectos from "./Views/Proyectos/Proyectos";
 import DetalleProyectos from "./Views/DetalleProyectos/DetalleProyectos";
+import Whatsapp from "./Components/Whatsapp/Whatsapp";
+import style from "../src/Views/Home/Home.module.css"
 
 function App() {
   return (
@@ -43,8 +45,13 @@ function App() {
             path="/detalledeproyectos/:id"
             element={<DetalleProyectos />}
           />
+          
         </Routes>
+        <div className={style.whatsapp}>
+        <Whatsapp />
+      </div>
         <Footer />
+       
       </div>
     </BrowserRouter>
   );

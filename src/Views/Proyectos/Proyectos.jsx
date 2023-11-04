@@ -1,24 +1,25 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import CardsProyectos from "../../Components/CardsProyectos/CardsProyectos";
-
 import { useSelector, useDispatch } from "react-redux";
 import { getProyectos } from "../../Redux/Actions";
+import style from "./Proyectos.module.css"; 
 
-const Home = () => {
-  const dispatch = useDispatch(); // Usa useDispatch como una función
+const Proyectos = () => {
+  const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(getProyectos()); // Despacha la acción para obtener los servicios
+    dispatch(getProyectos());
   }, []);
 
   const proyectos = useSelector((state) => state.proyectos);
 
   return (
-    <div className="home-container">
-      <div>
+    <div className={style.container}>
+      <div className={style.title}>Proyectos Desarrollados</div>
+      <div className={style.cardcontainer}>
         <CardsProyectos proyectos={proyectos} />
       </div>
     </div>
   );
 };
 
-export default Home;
+export default Proyectos;

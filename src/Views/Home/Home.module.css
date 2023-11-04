@@ -1,0 +1,16 @@
+.title {
+  color: black;
+  display: flex;
+  justify-content: center; /* Esto centrará el título horizontalmente */
+  align-items: center; /* Esto centrará el título verticalmente */
+  font-size:xx-large;
+  font-weight: bold;
+}.whatsapp {
+  display: flex;
+  justify-content: end;
+  position: sticky;
+  bottom: 20px; /* Posición desde la parte inferior */
+  right: 10px;
+  margin: 0rem;
+  
+}
