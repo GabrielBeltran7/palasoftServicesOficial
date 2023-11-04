@@ -43,9 +43,11 @@ p {
   background-color: rgb(16, 228, 228);
   padding: 25px;
   border-radius: 20px;
-  margin: 0;
+  margin: 20px;
   box-shadow: 5px 5px 10px black;
   font-weight: 700;
+ 
+  
 }
 
 .formulario div {
@@ -55,6 +57,7 @@ p {
   align-items: center;
   justify-content: center;
   text-align: start;
+  
 }
 
 .formulario input {

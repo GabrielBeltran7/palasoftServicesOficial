@@ -39,23 +39,25 @@
 @media screen and (max-width: 768px) {
   .navcontainer {
     justify-content: space-between;
+    
   }
 
   .navcontainer a {
     display: none;
   }
 
-  .menu-icon {
+  .menuicono {
     display: block;
     font-size: 30px;
+    height: 60px; /* Agrega una altura para que sea clickeable */
     cursor: pointer;
   }
 
-  .menu-icon.active + .linkcontainer {
+  .menuicono.active + .linkcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000000;
+    background-color: aqua;
     position: absolute;
     top: 60px;
     left: 0;
@@ -63,7 +65,7 @@
     z-index: 1;
   }
 
-  .menu-icon.active + .linkcontainer a {
+  .menuicono.active + .linkcontainer a {
     display: block;
     margin: 10px;
   }
