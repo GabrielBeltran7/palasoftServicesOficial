@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 80%;
+  width: 100%;
 }
 
 .inicio {
@@ -10,78 +10,100 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 500px;
   color: black;
   border-left: 5px solid rgb(111, 214, 214);
-  padding: 20px;
 }
 
 .inicio h2,
-.inicio h3,
-.inicio p {
-  margin: 10px 0;
+h3,
+p {
+  margin-left: 20px;
 }
 
 .inicio h2 {
-  font-size: 24px;
+  font-size: 40px;
 }
 
 .inicio p {
-  font-size: 16px;
-}
-
-.inicio h3 {
   font-size: 20px;
 }
 
+.inicio h3 {
+  font-size: 25px;
+}
+
 .formulario {
-  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  width: 350px;
   gap: 15px;
   color: black;
   background-color: rgb(16, 228, 228);
-  padding: 20px;
+  padding: 25px;
   border-radius: 20px;
+  margin: 0;
   box-shadow: 5px 5px 10px black;
   font-weight: 700;
-  margin-bottom: 20px; /* Agregamos margen inferior para crear espacio */
 }
 
 .formulario div {
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
+  justify-content: center;
   text-align: start;
 }
 
-.formulario input,
-.formulario textarea {
-  width: 100%;
+.formulario input {
+  width: 80%;
 }
 
 .enviarConsulta {
-  background-color: white;
+  background-color: #011148;
   box-shadow: 2px 2px 5px black;
   border: none;
-  text-align: center;
-  padding: 10px;
-  font-size: 16px;
 }
 
 .enviarConsulta:hover {
-  background-color: aqua;
+  background-color: #000d36;
   border: none;
   box-shadow: 0px 0px 0px black;
 }
 
 .imagen {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
+  width: 500px;
+  height: 400px;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 1450px) {
+  .imagen {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .imagen {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .imagen {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .imagen {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 860px) {
@@ -91,16 +113,18 @@
   }
 
   .inicio {
+    justify-content: center;
     width: 100%;
     align-items: center;
+    height: 400px;
   }
-
   .formulario {
-    width: 100%;
-  }
-
-  .imagen {
-    max-width: 100%;
+    width: 80%;
   }
 }
 
+@media screen and (max-width: 680) {
+  .inicio {
+    margin-bottom: 20px;
+  }
+}
