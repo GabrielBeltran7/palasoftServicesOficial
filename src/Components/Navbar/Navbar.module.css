@@ -33,6 +33,7 @@
 
 .navcontainer img:hover {
   transform: rotate(360deg);
+
 }
 
 /* Estilos para pantallas pequeñas (responsive) */

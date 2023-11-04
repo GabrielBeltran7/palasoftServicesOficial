@@ -5,7 +5,6 @@ import FuncionContactenos from "../Funcioncontactenos/FuncionContactenos";
 import {
   FaFacebook,
   FaYoutube,
-  FaTwitter,
   FaInstagram,
   FaLinkedin,
   FaGithub,

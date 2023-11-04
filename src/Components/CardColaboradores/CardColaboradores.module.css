@@ -1,6 +1,7 @@
 .cardContainer {
   width: 350px;
   height: 500px;
+  min-height: 100vh
 }
 
 .cardContainer:hover > .card {
