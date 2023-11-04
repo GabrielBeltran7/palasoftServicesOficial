@@ -14,6 +14,8 @@ const FormularioInicio = () => {
         <h3>
           Encuentra las soluciones tecnologicas que necesitás con Innovación Digital!
         </h3>
+        <br />
+        <br />
       </div>
       <form action="" className={style.formulario}>
         <div>
