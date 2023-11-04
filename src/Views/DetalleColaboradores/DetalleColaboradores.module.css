@@ -8,6 +8,7 @@
   margin: 20px;
   width: 90%;
   font-size: x-large;
+  min-height:100vh
 }
 .title {
   text-align: center;
