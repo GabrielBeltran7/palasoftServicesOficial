@@ -62,13 +62,13 @@ p {
 }
 
 .enviarConsulta {
-  background-color: #011148;
+  background-color: #eaecf0;
   box-shadow: 2px 2px 5px black;
   border: none;
 }
 
 .enviarConsulta:hover {
-  background-color: #000d36;
+  background-color: aqua;
   border: none;
   box-shadow: 0px 0px 0px black;
 }
