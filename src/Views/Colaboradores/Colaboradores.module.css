@@ -1,3 +1,10 @@
-.contenedor{
-  min-height: 100vh;
+body {
+  background-color: white; /* Establece el fondo blanco para todo el cuerpo */
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+.contenedor {
+  min-height: 100vh; /* Asegura que el contenido ocupe al menos el 100% de la altura de la ventana */
+  background-color: white;
 }

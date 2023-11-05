@@ -1,7 +1,5 @@
 import React from "react";
 import style from "./CardColaboradores.module.css";
-import { Link } from "react-router-dom";
-import FuncionContactenos from "../Funcioncontactenos/FuncionContactenos";
 import {
   FaFacebook,
   FaYoutube,

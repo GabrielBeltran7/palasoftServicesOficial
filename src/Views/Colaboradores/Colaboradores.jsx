@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Cards from "../../Components/Cards/Cards";
 import CardsColaboradores from "../../Components/CardsColaboradores/CardsColaboradores";
 import { useSelector, useDispatch } from "react-redux";
 import { getColaboradores } from "../../Redux/Actions";

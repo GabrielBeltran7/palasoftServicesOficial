@@ -1,9 +1,6 @@
 
 .contenedor {
- 
-  display: flex;
-  
-  
+ display: flex;
   min-height:100vh
 }.title {
   color: black;
