@@ -3,7 +3,7 @@ import Cards from "../../Components/Cards/Cards";
 import CardsColaboradores from "../../Components/CardsColaboradores/CardsColaboradores";
 import { useSelector, useDispatch } from "react-redux";
 import { getColaboradores } from "../../Redux/Actions";
-import style from "/Colaboradores.module.css"
+import style from "./Colaboradores.module.css"
 
 const Home = () => {
   const dispatch = useDispatch(); // Usa useDispatch como una función
