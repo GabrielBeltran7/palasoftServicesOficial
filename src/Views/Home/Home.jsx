@@ -14,11 +14,11 @@ const Home = () => {
   console.log(servicios);
 
   return (
-    <div className={style.title}>
+    <div className={style.contenedor}>
       <div>
-      <div >
-  Nuestros Servicios
-    </div>
+      <div className={style.title}>
+       Nuestros Servicios
+       </div>
         <Cards servicios={servicios} />
       </div>
     </div>
