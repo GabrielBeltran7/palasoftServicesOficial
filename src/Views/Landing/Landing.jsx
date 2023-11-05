@@ -8,7 +8,7 @@ import Argentina from "../../assets/argentina.png";
 import Colombia from "../../assets/colombia.png";
 import Paraguay from "../../assets/paraguay.png";
 
-const logo = "https://firebasestorage.googleapis.com/v0/b/link-6eb7d.appspot.com/o/innovacionDigitallogo.png?alt=media&token=9822d711-4f1f-4a9c-9852-0cf7cf715738"
+const logo = "https://firebasestorage.googleapis.com/v0/b/link-6eb7d.appspot.com/o/innovacionDigitallogo.png?alt=media&token=f3e29e0e-c0bd-4e1f-a43f-d959651fa827"
 const Landing = () => {
   return (
     <div className={styles.container}>
