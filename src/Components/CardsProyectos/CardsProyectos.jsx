@@ -12,6 +12,7 @@ const Cards = ({ proyectos }) => {
           nombre={proyectos.nombre}
           imagen={proyectos.imagen}
           descripcion={proyectos.descripcion}
+          descripcionCorta={proyectos.descripcionCorta}
           key={proyectos.id} />)}
 </div>
 

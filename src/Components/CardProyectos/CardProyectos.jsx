@@ -18,6 +18,7 @@ const Card = (props) => {
       <div className={style.cardinfo}>
         <Link to={`/detalledeproyectos/${id}`}>
           <h4 className={style.color}>{props.nombre}</h4>
+          <h4 className={style.descorta}>{props.descripcionCorta}</h4>
         </Link>
         <FuncionContactenos />
       </div>
