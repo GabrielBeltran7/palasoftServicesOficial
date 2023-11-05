@@ -3,7 +3,7 @@ export const servicios = [
     id: 1,
     nombre: "INNOVACIO NDIGITAL",
     imagen:
-      "https://firebasestorage.googleapis.com/v0/b/link-6eb7d.appspot.com/o/imagenesProyectoInnovacionDigital%2FinnovacionDigital.png?alt=media&token=a712d29a-c889-4ab1-a513-1069fb68ebd7",
+      "https://res.cloudinary.com/dby8lelja/image/upload/v1699152549/imgProyecto-innovacion/innovacionDigital_dsqep3.png",
     descripcion: `Win123 fue un  sitio desarrollado para un cliente Mexicano, este sitio web 
     fue creado para la carrera de apuestas de motos, esta diseñado para que los usuarios compren puntos
     y luego los puedan apostar por el jugador que deseen, o que crean que va a ganar, ahi 4 tipos de apuestas,
@@ -16,7 +16,7 @@ export const servicios = [
   {
     id: 2,
     nombre: "TECNOMINERALES",
-    imagen: "https://firebasestorage.googleapis.com/v0/b/link-6eb7d.appspot.com/o/imagenesProyectoInnovacionDigital%2Ftecnominerales.png?alt=media&token=636d30a2-affb-44f3-abf5-877c273a746d",
+    imagen: "https://res.cloudinary.com/dby8lelja/image/upload/v1699152549/imgProyecto-innovacion/tecnominerales_umlj4l.png",
     descripcion: `Pagina desarrollada para una empresa Colombiana, dedicada a la recoleccion de escombros,
     alquiler de maquinaria pesada y demolicion de infraestructura, almacenaje de escombros, la tecnologia utilizada
     para el desarrollo de esta landing page fue reactjs, redux, css y javascript`,
@@ -26,7 +26,7 @@ export const servicios = [
     id: 3,
     nombre: "CELLEXPRESS",
     imagen:
-      "https://firebasestorage.googleapis.com/v0/b/link-6eb7d.appspot.com/o/imagenesProyectoInnovacionDigital%2FcellEXPRESS.png?alt=media&token=23c42a9d-40ac-4078-a5b3-2f027ecaa880",
+      "https://res.cloudinary.com/dby8lelja/image/upload/v1699152549/imgProyecto-innovacion/cellEXPRESS_qm5v4b.png",
     descripcion: `CELLEXPRESS  Fue un e-comerce desarrollado para la venta de celulares,
     este sistema permitia crear productos, subir imagenes del mismo, actualizar precios, control de stock, pasarela de pagos, 
     banneo de usuarios, entre otras funcionalidades propias de un e-comerce, este sistema se desarrollo en node, exppress, prispam, sequalize, 
@@ -37,7 +37,7 @@ export const servicios = [
     id: 4,
     nombre: "KYREY",
     imagen:
-      "https://firebasestorage.googleapis.com/v0/b/link-6eb7d.appspot.com/o/imagenesProyectoInnovacionDigital%2Fkyrey.png?alt=media&token=f17ab203-3569-44d6-b564-0781a1cebfc6",
+      "https://res.cloudinary.com/dby8lelja/image/upload/v1699152548/imgProyecto-innovacion/kyrey_e7dltb.png",
     descripcion: `Apliacion Movil, desarrollada para un cliente Paraguayo, la aplicacion se desarrollo para que los clientes que 
     quieran enviar un paquete de manera urgente lo puedan hacer, la aplicacion consite en crear envio de paquetes de cualquier tipo
     y luego de creado el envio, se le asigna a un delivery con moto  para que haga la entrega del mismo
@@ -48,7 +48,7 @@ export const servicios = [
     id: 5,
     nombre: "LINK",
     imagen:
-      "https://firebasestorage.googleapis.com/v0/b/link-6eb7d.appspot.com/o/imagenesProyectoInnovacionDigital%2FLink.png?alt=media&token=8bb54295-95fa-4733-afc0-415238001c3a",
+      "https://res.cloudinary.com/dby8lelja/image/upload/v1699152549/imgProyecto-innovacion/Link_dukjwa.png",
     descripcion: `Link es una Aplicacion movil, que su funcionalidad primordial es poner en contacto entre quien pierde 
     un documento y quien lo encuentra, esa es basicamente su funcionalidad, fue desarrollada en react-native, expo, firebase, redux, etc`,
     descripcionCorta: "APP MOVIL",
@@ -56,7 +56,7 @@ export const servicios = [
   {
     id: 6,
     nombre: "WIN123",
-    imagen: "https://firebasestorage.googleapis.com/v0/b/link-6eb7d.appspot.com/o/imagenesProyectoInnovacionDigital%2Fwin123.png?alt=media&token=2ef65681-af12-413c-b017-89bf9e9e0a8a",
+    imagen: "https://res.cloudinary.com/dby8lelja/image/upload/v1699152549/imgProyecto-innovacion/win123_rcro3y.png",
     descripcion: `Sitio web desarrollado para una empresa Colombiana, dedicada a la implementacion tecnologica, 
     esta empresa ofrece servicios tecnologicos, como implementacion de automatizacion de procesos,  desarrollo web, 
     pero se enfoca mas en el seo y la automatizacion de procesos, las tecnologias utilizadas para crear este sitio

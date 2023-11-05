@@ -10,7 +10,7 @@ export const Colaboradores = [
     linkedin:"https://www.linkedin.com/in/gabriel-gerardo-beltran-medina-486529247/",
     github:"https://github.com/GabrielBeltran7", 
     imagen:
-      "https://firebasestorage.googleapis.com/v0/b/link-6eb7d.appspot.com/o/gabriel.jpg?alt=media&token=5c5241f0-1850-4415-a124-4f1522851ba6",
+      "https://res.cloudinary.com/dby8lelja/image/upload/v1699152762/imgProyecto-innovacion/gabriel_klhja1.jpg",
     descripcion: ` Perfil Profesional
     Soy Ingeniero de Sistemas y Desarrollador web Full Stack, tengo sólidos conocimientos tanto 
     en Front-end como en Back-end, obtenidos a través del programa de formación en Soy Henry. 
