@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';  // Importa la librería EmailJS
 import styles from './FormularioContactenos.module.css';
+import Swal from 'sweetalert2';
 
 const FormularioContactenos = () => {
   const [input, setInput] = useState({
@@ -32,10 +33,20 @@ const FormularioContactenos = () => {
     // Reemplaza 'YOUR_EMAILJS_USER_ID' con tu ID de usuario de EmailJS
     emailjs.send('service_8ni33ap', 'template_g6fmvrq', templateParams, 'OSctIut5jV2BPZRQX')
       .then((response) => {
-        console.log('Correo enviado con éxito', response);
+        Swal.fire({
+          icon: "success",
+          title: "Correo enviado con exito.",
+          timerProgressBar: true,
+          timer: 3500,
+        });
       })
       .catch((error) => {
-        console.error('Error al enviar el correo', error);
+        Swal.fire({
+          icon: 'error', // Usar 'error' para el icono de error.
+          title: 'Error al enviar el correo',
+          text: 'Se produjo un error al enviar el correo. Por favor, inténtalo de nuevo.',
+          confirmButtonColor: '#d33', // Cambiar el color del botón de confirmación (opcional).
+        });
       });
 
     // Limpia el formulario después de enviar
