@@ -14,9 +14,9 @@ const Home = () => {
   console.log(servicios);
 
   return (
-    <div >
+    <div className={style.title}>
       <div>
-      <div className={style.title}>
+      <div >
   Nuestros Servicios
     </div>
         <Cards servicios={servicios} />
