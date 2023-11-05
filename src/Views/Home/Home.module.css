@@ -5,7 +5,7 @@
   align-items: center; /* Esto centrará el título verticalmente */
   font-size:xx-large;
   font-weight: bold;
-  min-height: 100vh
+  min-height:100vh
 }.whatsapp {
   display: flex;
   justify-content: end;
