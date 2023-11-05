@@ -4,12 +4,9 @@ export const servicios = [
     nombre: "INNOVACIO NDIGITAL",
     imagen:
       "https://res.cloudinary.com/dby8lelja/image/upload/v1699152549/imgProyecto-innovacion/innovacionDigital_dsqep3.png",
-    descripcion: `Win123 fue un  sitio desarrollado para un cliente Mexicano, este sitio web 
-    fue creado para la carrera de apuestas de motos, esta diseñado para que los usuarios compren puntos
-    y luego los puedan apostar por el jugador que deseen, o que crean que va a ganar, ahi 4 tipos de apuestas,
-    win, apuesta por 1 solo jugador,exacta, apuesta por 2 jugadores, trifecta, apuesta por 3 juadores, supertecta,
-    apuesta por 4 jugadores, es un sitio web muy complejo que ademas tiene transmisiones en vivo, las tecnologias utilizadas 
-    para desarrollarlo fueron, back, node, express, sequalize, para el front fueron reactjs, redux, css, etc
+    descripcion: `Innovacion digital, es el sitio en el que en este momento esta navegando, desarrollado para proyectos
+    freelancer, las tecnologias utilizadas 
+    para desarrollarla fueron,  el front fueron reactjs, redux, css, etc
     .`,
     descripcionCorta: "SITIO WEB",
   },
@@ -40,8 +37,8 @@ export const servicios = [
       "https://res.cloudinary.com/dby8lelja/image/upload/v1699152548/imgProyecto-innovacion/kyrey_e7dltb.png",
     descripcion: `Apliacion Movil, desarrollada para un cliente Paraguayo, la aplicacion se desarrollo para que los clientes que 
     quieran enviar un paquete de manera urgente lo puedan hacer, la aplicacion consite en crear envio de paquetes de cualquier tipo
-    y luego de creado el envio, se le asigna a un delivery con moto  para que haga la entrega del mismo
-    las tecnologias utilizadas fueron React-native, firebase, redux, css, javascript`,
+    y luego de creado el envio, se le asigna a un delivery con moto  para que haga la entrega del mismo.
+    las tecnologias utilizadas fueron, React-native, firebase, redux, css, javascript`,
     descripcionCorta: "APP MOVIL",
   },
   {
