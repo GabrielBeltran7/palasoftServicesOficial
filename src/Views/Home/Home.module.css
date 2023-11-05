@@ -1,11 +1,9 @@
 
 .contenedor {
-  color: black;
+ 
   display: flex;
-  justify-content: center; /* Esto centrará el título horizontalmente */
-  align-items: center; /* Esto centrará el título verticalmente */
-  font-size:xx-large;
-  font-weight: bold;
+  
+  
   min-height:10vh
 }.title {
   color: black;
