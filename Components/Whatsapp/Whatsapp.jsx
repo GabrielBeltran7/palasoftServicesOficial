@@ -14,5 +14,4 @@ const Whatsapp = () => {
     </div>
   );
 };
-
 export default Whatsapp;
