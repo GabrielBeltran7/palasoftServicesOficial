@@ -1,0 +1,21 @@
+/* Estilo del Contenedor Principal */
+
+.contenedorprincipal {
+  min-height: calc(100vh - 173px);
+  background-color: #fafafaf3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+/* Estilo del Encabezado */
+
+/* Estilos para Pantallas Pequeñas (máx. 750px) */
+@media (max-width: 750px) {
+  .contenedorprincipal {
+    flex-direction: column;
+    /* Puede agregar más estilos para pantallas pequeñas según sea necesario */
+  }
+}

@@ -1,0 +1,7 @@
+.cardscontainer {
+  background-color: rgba(255, 255, 255, 0.945);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}

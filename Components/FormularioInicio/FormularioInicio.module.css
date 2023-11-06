@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.inicio {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  color: black;
+  border-left: 5px solid rgb(111, 214, 214);
+}
+
+.inicio h2,
+h3,
+p {
+  margin-left: 20px;
+}
+
+.inicio h2 {
+  font-size: 40px;
+}
+
+.inicio p {
+  font-size: 20px;
+}
+
+.inicio h3 {
+  font-size: 25px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  gap: 15px;
+  color: black;
+  background-color: rgb(16, 228, 228);
+  padding: 25px;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 5px 5px 10px black;
+  font-weight: 700;
+ 
+  
+}
+
+.formulario div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  
+}
+
+.formulario input {
+  width: 80%;
+}
+
+.enviarConsulta {
+  background-color: #eaecf0;
+  box-shadow: 2px 2px 5px black;
+  border: none;
+}
+
+.enviarConsulta:hover {
+  background-color: aqua;
+  border: none;
+  box-shadow: 0px 0px 0px black;
+}
+
+.imagen {
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1450px) {
+  .imagen {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .imagen {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .imagen {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .imagen {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .inicio {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 400px;
+    margin: 2rem;
+  }
+  .formulario {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 680) {
+  .inicio {
+    margin-bottom: 20px;
+  }
+}
