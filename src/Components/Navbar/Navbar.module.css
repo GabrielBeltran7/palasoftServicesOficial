@@ -32,7 +32,7 @@
 }
 
 .navcontainer img:hover {
-  transform: rotate(300deg);
+  transform: rotate(360deg);
 
 }
 

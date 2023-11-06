@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className={styles.navcontainer}>
       <Link to="/">
         <img 
-          src="https://res.cloudinary.com/dby8lelja/image/upload/v1699308317/imgProyecto-innovacion/logo_em1l67.png"
+          src="https://res.cloudinary.com/dby8lelja/image/upload/v1699308688/palasoftservice/logo_ldb7i3.png"
           alt="logpalasoftservices"
         />
       </Link>
