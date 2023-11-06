@@ -19,41 +19,46 @@ const Direccion = () => {
           <FaMapMarkerAlt /> Colombia, Cundinamarca
         </p>
         <p className={styles.addressText}>
-          <FaMapMarkerAlt /> Madrid, carrera 20a n 2-33
+          <FaMapMarkerAlt /> Mosquera, KR 10 # 15 A - 22 AP 200
+
         </p>
         <p className={styles.addressText}>
-          <FaPhoneAlt /> Celular: +57  3132315212
+          <FaPhoneAlt /> Celular: +57  3213190211
         </p>
         <p className={styles.addressText}>
-          <FaEnvelope />  gabrielbeltranmedina@gmail.com
+          <FaEnvelope /> Palasoftservices@gmail.com
         </p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.2147332524023!2d-74.27939068909545!3d4.732724941358529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f79b8209c7f25%3A0x8cf88a78f2212ff6!2sCra.%2020a%20%232-33%2C%20Madrid%2C%20Cundinamarca!5e0!3m2!1ses-419!2sco!4v1699130472556!5m2!1ses-419!2sco"
-         width="300" height="200"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.2829950198525!2d-74.23106882620203!3d4.720829041485203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f780ff1fcbbfd%3A0xfdeb4c58fea71264!2sCl.%2010%20%2315a-22%2C%20Mosquera%2C%20Cundinamarca!5e0!3m2!1ses-419!2sco!4v1699305507227!5m2!1ses-419!2sco"
+         width="300"
+          height="200" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
         
       </div>
       <div className={styles.direccionContainer}>
         <h2 className={styles.title}>
-          <FaBuilding /> Argentina
+          <FaBuilding /> Paraguay
         </h2>
         <p className={styles.addressText}>
-          <FaMapMarkerAlt /> Argentina, Cordoba
+          <FaMapMarkerAlt /> Paraguay, Asuncion
         </p>
         <p className={styles.addressText}>
-          <FaMapMarkerAlt /> Cordoba- Argentina
+          <FaMapMarkerAlt /> Julia Miranda Cueto Nro 1145
+          <br /> esquina Zavalas
         </p>
         <p className={styles.addressText}>
-          <FaPhoneAlt /> Celular: +54 93512007103
+          <FaPhoneAlt /> Celular: +595 -994253809
         </p>
         <p className={styles.addressText}>
-          <FaEnvelope /> Correo: angelceesd@gmail.com
+          <FaEnvelope /> gerencia.palasoft@gmail.com
         </p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d963.1788726418287!2d-74.16351926877255!3d4.764063463643864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNMKwNDUnNTEuNCJOIDc0wrAwOSc0Ny4zIlc!5e0!3m2!1ses!2sco!4v1698017407521!5m2!1ses!2sco"
-          width="300"
-          height="200"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+  
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.353547548339!2d-57.55693472556449!3d-25.325914728779665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da92b44744d21%3A0x1f900d8de13d682b!2sJulia%20Miranda%20Cueto%201145%2C%20San%20Lorenzo%2C%20Paraguay!5e0!3m2!1ses-419!2sco!4v1699306325058!5m2!1ses-419!2sco"
+         width="300" 
+         height="200" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   );

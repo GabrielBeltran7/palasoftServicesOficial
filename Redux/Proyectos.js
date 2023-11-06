@@ -1,12 +1,11 @@
 export const servicios = [
   {
     id: 1,
-    nombre: "INNOVACIO NDIGITAL",
+    nombre: "PALASOFT SERVICE",
     imagen:
-      "https://res.cloudinary.com/dby8lelja/image/upload/v1699152549/imgProyecto-innovacion/innovacionDigital_dsqep3.png",
-    descripcion: `Innovacion digital, es el sitio en el que en este momento esta navegando, desarrollado para proyectos
-    freelancer, las tecnologias utilizadas 
-    para desarrollarla fueron,  el front fueron reactjs, redux, css, etc
+      "https://res.cloudinary.com/dby8lelja/image/upload/v1699310532/palasoftservice/palasoftservices_rovu5a.png",
+    descripcion: `Palasoft service, es el sitio en el que en este momento esta navegando,  las tecnologias utilizadas 
+    para desarrollarla fueron,  reactjs, redux, css, etc
     .`,
     descripcionCorta: "SITIO WEB",
   },

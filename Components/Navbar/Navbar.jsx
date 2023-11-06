@@ -18,8 +18,8 @@ const Navbar = () => {
     <div className={styles.navcontainer}>
       <Link to="/">
         <img 
-          src="https://firebasestorage.googleapis.com/v0/b/link-6eb7d.appspot.com/o/innovacionDigitallogo.png?alt=media&token=f3e29e0e-c0bd-4e1f-a43f-d959651fa827"
-          alt="logoInnovacionDigital"
+          src="https://res.cloudinary.com/dby8lelja/image/upload/v1699308688/palasoftservice/logo_ldb7i3.png"
+          alt="logpalasoftservices"
         />
       </Link>
       <div className={`${styles.menuicono} ${showMenu ? styles.active : ""}`} onClick={toggleMenu}>
