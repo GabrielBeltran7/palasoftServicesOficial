@@ -5,7 +5,7 @@ export const servicios = [
     imagen:
       "https://res.cloudinary.com/dby8lelja/image/upload/v1699310532/palasoftservice/palasoftservices_rovu5a.png",
     descripcion: `Palasoft service, es el sitio en el que en este momento esta navegando,  las tecnologias utilizadas 
-    para desarrollarla fueron,  el front fueron reactjs, redux, css, etc
+    para desarrollarla fueron,  reactjs, redux, css, etc
     .`,
     descripcionCorta: "SITIO WEB",
   },
