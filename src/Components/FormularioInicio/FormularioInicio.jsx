@@ -72,7 +72,7 @@ const FormularioInicio = () => {
           concretos, medibles y escalables.
         </p>
         <h3>
-          Encuentra las soluciones tecnologicas que necesitás con Innovación Digital!
+          Encuentra las soluciones tecnologicas que necesitás con Palasoft Services!
         </h3>
         <br />
         <br />

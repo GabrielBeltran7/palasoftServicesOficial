@@ -1,6 +1,5 @@
 
 
-
 .cardContainer {
   width: 350px;
   height: 500px;
@@ -11,6 +10,8 @@
 .cardContainer:hover > .card {
   cursor: pointer;
   transform: rotateY(180deg);
+  height: 100%;
+  width: 100%;
 }
 .card {
   height: 100%;
