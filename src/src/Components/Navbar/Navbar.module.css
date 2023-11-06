@@ -1,0 +1,74 @@
+/* Estilos para pantallas grandes (PC) */
+.navcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black; /* Fondo negro ligeramente más oscuro */
+  color: white; /* Texto en blanco */
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.navcontainer a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 900;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navcontainer a:hover {
+  color: rgb(2, 234, 255);
+  transform: scale(1.1);
+}
+
+.navcontainer img {
+  display: block;
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.navcontainer img:hover {
+  transform: rotate(360deg);
+
+}
+
+/* Estilos para pantallas pequeñas (responsive) */
+@media screen and (max-width: 768px) {
+  .navcontainer {
+    justify-content: space-between;
+    
+  }
+
+  .navcontainer a {
+    display: none;
+  }
+
+  .menuicono {
+    display: block;
+    font-size: 30px;
+    height: 60px; /* Agrega una altura para que sea clickeable */
+    cursor: pointer;
+  }
+
+  .menuicono.active + .linkcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .menuicono.active + .linkcontainer a {
+    display: block;
+    margin: 10px;
+  }
+}
+

@@ -1,0 +1,82 @@
+.cardcontainer {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  margin: 1rem;
+  width: 25%; /* Establece el ancho inicial al 25% del contenedor padre */
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .cardcontainer {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor padre en pantallas pequeñas */
+  }
+}
+
+.cardcontainer:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  background-color: #02eaff;
+  cursor: pointer;
+}.descorta{
+  color: red;
+}
+
+.cardtitle {
+  border-radius: 10px 10px 0 0;
+  background-color: #000;
+  text-align: center;
+}
+
+.image {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover; /* Asegura que la imagen se ajuste correctamente en su contenedor */
+}
+
+.color {
+  color: #333;
+}
+
+.color:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+.carddivisor {
+  height: 1px;
+  background-color: #ccc;
+}
+
+.cardinfo {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin: 10px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}

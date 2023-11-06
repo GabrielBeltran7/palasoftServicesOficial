@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  min-height:100vh
+}
+
+.title {
+  color: black;
+  display: flex;
+  justify-content: center; /* Esto centrará el título horizontalmente */
+  align-items: center; /* Esto centrará el título verticalmente */
+  font-size:xx-large;
+  font-weight: bold;
+}
+
+.cardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilos para cada tarjeta de proyecto si es necesario */
+.cardproyecto {
+  margin: 10px;
+  /* Agrega aquí estilos específicos para las tarjetas de proyectos si es necesario */
+}
