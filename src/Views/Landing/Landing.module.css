@@ -1,0 +1,181 @@
+/* Estilos generales para toda la página */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+
+  min-height: 100vh;
+  overflow-x: hidden; /* Evitar la barra de desplazamiento horizontal en dispositivos móviles */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 100%; /* El contenedor se ajustará al ancho del dispositivo */
+  background-color: #feffff;
+  
+}.palasoft{
+  margin-bottom: 3rem;
+}
+
+/* Estilos para la imagen */
+.image {
+  max-width: 100%; /* La imagen no superará el ancho del contenedor */
+  border-radius: 10px;
+  display: block;
+}
+
+/* Estilos para el título */
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el párrafo */
+.paragraph {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  color: black;
+  line-height: 1.5; /* Ajusta el espaciado entre líneas */
+  text-align: justify; /* Justifica el texto para que todas las líneas tengan el mismo ancho */
+  word-spacing: -2px; /* Ajusta el espaciado entre palabras */
+}
+
+/* Estilos para el botón de llamada a la acción (CTA) */
+.button {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  background-color: aqua;;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-weight: 800;
+  font-size: 20px;
+  text-decoration: underline;
+  box-shadow: 5px 5px 10px black;
+  transition: 0.2s;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: aqua;
+  color: black;
+  box-shadow: 0px 0px 0px;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.945);
+  margin: 20px;
+}
+
+.contenedorInfoUno {
+  margin: 30px;
+  display: flex;
+  width: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #011148;
+  padding: 20px;
+  gap: 20px;
+  
+}
+
+.contenedorInfoUno p {
+  width: 80%;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+  border-left: 10px solid rgb(0, 197, 211);
+  border-bottom: 10px solid black;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.contParrafo {
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+}
+
+.imagenInfoUno {
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.container h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  background-color: rgba(255, 255, 255, 0.945);
+  color: black;
+  font-weight: 900;
+}
+
+.contenedorInfoDos {
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.945);
+  padding: 20px;
+  gap: 20px;
+}
+
+.contenedorInfoDos p {
+  width: 75%;
+  font-size: 20px;
+  color: black;
+  margin-left: 20px;
+  border-left: 5px solid aqua;
+  padding-left: 50px;
+}
+
+.image {
+  width: 560px;
+}
+
+.banderas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.banderas img {
+  width: 45px;
+}
+
+@media (max-width: 1400px) {
+  .contenedorInfoUno img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contenedorInfoUno img {
+    width: 250px;
+  }
+  .contenedorInfoUno p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 750) {
+  .contenedorInfoUno img {
+    width: 200px;
+
+    margin-bottom: 20px;
+  }
+}

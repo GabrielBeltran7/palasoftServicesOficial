@@ -1,0 +1,8 @@
+.boton {
+  background-color: #020100;
+  color: rgb(245, 247, 248);
+}
+
+.boton:hover {
+  background-color: #333333; /* Gris oscuro */
+}
