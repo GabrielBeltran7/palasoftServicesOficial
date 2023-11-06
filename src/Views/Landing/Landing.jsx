@@ -13,13 +13,14 @@ const Landing = () => {
   return (
     <div className={styles.container}>
       <div className={styles.palasoft}>
-        <h1>Innovacion Digital</h1> <br />
+        <h1>PalaSoft Service</h1> <br />
 
 
         <span className={styles.banderas}>
           <img src={Argentina} alt="Bandera Argentina" />
-          <img src={logo} alt="Logo" />
           <img src={Colombia} alt="Bandera Colombia" />
+          <img src={Paraguay} alt="Bandera Argentina" />
+          
          </span>
         
       </div>
@@ -29,7 +30,7 @@ const Landing = () => {
 
       <div className={styles.contenedorInfoUno}>
         <p className={styles.paragraph}>
-          En Innovación Digital, nuestra pasión va más allá del simple desarrollo
+          En PalaSoft Service, nuestra pasión va más allá del simple desarrollo
           de software; estamos comprometidos en crear experiencias digitales
           excepcionales que superen cualquier expectativa. Nos impulsa una
           dedicación inquebrantable hacia la excelencia, lo que nos lleva a
@@ -48,7 +49,7 @@ const Landing = () => {
         <p className={styles.paragraph}>
         En este viaje de innovación, destacamos por compromiso, calidad y excelencia. Con un equipo de expertos
          en desarrollo, diseño y tecnología, ofrecemos soluciones efectivas para tu negocio. Siempre a 
-         la vanguardia de las tendencias tecnológicas, aplicamos la innovación en proyectos. En Innovación Digital, 
+         la vanguardia de las tendencias tecnológicas, aplicamos la innovación en proyectos. PalaSoft Service, 
          somos proveedores de servicios tecnológicos y socios estratégicos en el éxito. Comprometidos con tu crecimiento,
         ansiamos crear un mañana brillante en tecnología
         </p>

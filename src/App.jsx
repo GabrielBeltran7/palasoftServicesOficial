@@ -3,9 +3,7 @@ import {
   BrowserRouter,
   Route,
   Routes,
-  Link,
-  Navigate,
-  NavLink,
+ 
 } from "react-router-dom";
 import Home from "./Views/Home/Home";
 import Landing from "./Views/Landing/Landing";
