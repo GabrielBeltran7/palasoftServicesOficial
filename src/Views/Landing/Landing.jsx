@@ -14,9 +14,7 @@ const Landing = () => {
     <div className={styles.container}>
       <div className={styles.palasoft}>
         <h1>PalaSoft Service</h1> <br />
-
-
-        <span className={styles.banderas}>
+ <span className={styles.banderas}>
           <img src={Argentina} alt="Bandera Argentina" />
           <img src={Colombia} alt="Bandera Colombia" />
           <img src={Paraguay} alt="Bandera Argentina" />
