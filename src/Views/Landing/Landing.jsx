@@ -14,13 +14,14 @@ const Landing = () => {
     <div className={styles.container}>
       <div className={styles.palasoft}>
         <h1>Innovacion Digital</h1> <br />
+
+
         <span className={styles.banderas}>
           <img src={Argentina} alt="Bandera Argentina" />
-          <img src={logo} alt="Bandera Argentina" />
+          <img src={logo} alt="Logo" />
           <img src={Colombia} alt="Bandera Colombia" />
+         </span>
         
-        </span>
-        <br />
       </div>
       <section className={styles.heroSection}>
         <FormularioContactenos />
